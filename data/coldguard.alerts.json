@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "6ac1052f9ffda3701a8ae49b"
+  },
+  "alert_id": "ALT-20261003133751801165",
+  "timestamp": "2026-10-03T13:37:51.801210+00:00",
+  "shipment_id": "SHP-2026-0000045",
+  "vehicle_id": "TRK-01347",
+  "product_id": "PRD-000751",
+  "alert_type": "COLD_CHAIN_RISK",
+  "severity": "HIGH",
+  "temperature": 3.58,
+  "threshold_min": -1,
+  "threshold_max": 3,
+  "risk_score": 53,
+  "risk_reasons": [
+    "TEMPERATURE_ABOVE_RANGE",
+    "HUMIDITY_BELOW_RANGE",
+    "DOOR_OPEN",
+    "REFRIGERATION_OFF",
+    "ENGINE_NOT_RUNNING"
+  ],
+  "probable_cause": "REFRIGERATION_FAILURE",
+  "inventory_value_at_risk": 4110502.88,
+  "status": "OPEN"
+}]
